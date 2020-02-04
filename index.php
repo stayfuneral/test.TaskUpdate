@@ -49,7 +49,6 @@ if (!empty($_REQUEST['event'])) {
 
     switch ($_REQUEST['event']) {
         case 'ONTASKADD':
-            break;
         case 'ONTASKUPDATE':
             if (!empty($Task['parentId'])) {
                 
